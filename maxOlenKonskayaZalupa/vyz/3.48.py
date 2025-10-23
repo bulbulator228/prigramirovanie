@@ -1,0 +1,5 @@
+y = float(input("Введите угол y (0 ≤ y < 360): "))
+hours = int(y // 30)
+minutes = int(((y % 30) / 30) * 60)
+print(f"Полных часов: {hours}")
+print(f"Полных минут: {minutes}")
