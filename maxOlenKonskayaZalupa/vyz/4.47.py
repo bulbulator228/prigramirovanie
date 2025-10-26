@@ -1,0 +1,5 @@
+a, b, c = map(float, input("Введите a, b, c через пробел: ").split())
+# а)
+print("a < b < c:", a < b < c)
+# б)
+print("b > a > c:", b > a > c)
