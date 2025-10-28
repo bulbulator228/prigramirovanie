@@ -10,7 +10,6 @@ def mushrooms_phrase(k):
         else:
             suffix = "грибов"
     return f"мы нашли {k} {suffix} в лесу"
-
 print(mushrooms_phrase(1))
 print(mushrooms_phrase(3))
 print(mushrooms_phrase(12))
